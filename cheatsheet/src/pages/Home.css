@@ -1,0 +1,28 @@
+html, body, #root { height: 100%; margin: 0; }
+
+.home-container {
+  height: 100vh;                 /* full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;        /* vertical center */
+  align-items: center;            /* horizontal center */
+  text-align: center;
+  gap: 1rem;
+}
+
+.home-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  transition: all .2s ease;
+}
+.home-links a:hover { background:#007bff; color:#fff; }

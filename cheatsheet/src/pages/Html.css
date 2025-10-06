@@ -1,0 +1,11 @@
+/* Html.css and Css.css can share the same rules */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     /* vertical centering */
+  align-items: center;         /* horizontal centering */
+  height: 100vh;               /* full viewport height */
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}

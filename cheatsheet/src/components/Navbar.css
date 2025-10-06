@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+/* Center only the Home links */
+.home-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 80vh; /* push them visually toward the center without covering full page */
+}
+
+/* Style for all links */
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}

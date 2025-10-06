@@ -1,15 +1,17 @@
 import { Link, useLocation } from "react-router-dom";
+import "./Navbar.css";
 
-function Navbar() {
-  const location = useLocation();
+export default function Navbar() {
+  const { pathname } = useLocation();
+
+  // Don't render a navbar on the Home page
+  if (pathname === "/") return null;
 
   return (
-    <nav>
-      {location.pathname !== "/" && <Link to="/">Home</Link>}
-      {location.pathname !== "/html" && <Link to="/html">HTML</Link>}
-      {location.pathname !== "/css" && <Link to="/css">CSS</Link>}
+    <nav className="navbar">
+      <Link to="/">Home</Link>
+      <Link to="/html">HTML</Link>
+      <Link to="/css">CSS</Link>
     </nav>
   );
 }
-
-export default Navbar;

@@ -3,9 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Html from "./pages/Html";
 import Css from "./pages/Css";
-import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Navbar />
@@ -17,5 +16,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
