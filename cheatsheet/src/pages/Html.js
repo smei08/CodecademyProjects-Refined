@@ -6,7 +6,7 @@ export default function Html() {
     <div className="page-container">
       <h1>HTML Reference</h1>
       <div className="table-container">
-        <h2>Tables</h2>
+        <h2>Tables Elements</h2>
         <table className="html-tables">
           <thead>
             <th>Tag</th>
@@ -72,16 +72,88 @@ export default function Html() {
           </tbody>
         </table>
       </div>
+      <div className="html-forms">
+        <h2>Forms Elements</h2>
+        <table>
+          <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Desciption</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;form&gt;</td>
+              <td>form element</td>
+              <td>Defines an HTML form for user input</td>
+            </tr>
+            <tr>
+              <td>&lt;input&gt;</td>
+              <td>input control</td>
+              <td>Defines an input control</td>
+            </tr>
+            <tr>
+              <td>&lt;textarea&gt;</td>
+              <td>textarea</td>
+              <td>Defines a multiline input control (text area)</td>
+            </tr>
+            <tr>
+              <td>&lt;label&gt;</td>
+              <td>label description</td>
+              <td>Defines a label for an &lt;input&gt; element</td>
+            </tr>
+            <tr>
+              <td>&lt;label&gt;</td>
+              <td>label description</td>
+              <td>Defines a label for an &lt;input&gt; element</td>
+            </tr>
+            <tr>
+              <td>&lt;fieldset&gt;</td>
+              <td>fieldset</td>
+              <td>Groups related elements in a form</td>
+            </tr>
+            <tr>
+              <td>&lt;legend&gt;</td>
+              <td>caption</td>
+              <td>Defines a caption for a &lt;fieldset&gt; element</td>
+            </tr>
+            <tr>
+              <td>&lt;select&gt;</td>
+              <td>select</td>
+              <td>Defines a drop-down list</td>
+            </tr>
+            <tr>
+              <td>&lt;optgroup&gt;</td>
+              <td>option group</td>
+              <td>Defines a group of related options in a drop-down list</td>
+            </tr>
+            <tr>
+              <td>&lt;option&gt;</td>
+              <td>option</td>
+              <td>Defines an option in a drop-down list, &lt;select&gt;</td>
+            </tr>
+            <tr>
+              <td>&lt;button&gt;</td>
+              <td>button</td>
+              <td>Defines a clickable button</td>
+            </tr>
+            <tr>
+              <td>&lt;datalist&gt;</td>
+              <td>datalist</td>
+              <td>
+                Defines an "autocomplete" for &lt;input&gt; elements, a list of
+                pre-defined options for input controls
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;output&gt;</td>
+              <td>output</td>
+              <td>Defines the result of a calculation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
+// &lt; &gt;

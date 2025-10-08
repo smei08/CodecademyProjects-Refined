@@ -9,7 +9,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/">Home</Link>
+      <Link className="home" to="/">
+        Home
+      </Link>
       <Link to="/html">HTML</Link>
       <Link to="/css">CSS</Link>
     </nav>

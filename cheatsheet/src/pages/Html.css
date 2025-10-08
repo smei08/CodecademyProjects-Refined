@@ -8,9 +8,27 @@
   text-align: center;
   gap: 1rem;
   padding: 2rem;
+  background-color: #e2efde;
 }
-.table-container,
-td,
+h1 {
+  color: #808f87;
+}
+h2 {
+  color: #9b7e46;
+}
+table,
+th,
+td {
+  border: 1px solid #9b7e46;
+  border-collapse: collapse;
+}
+table {
+  width: 80vh;
+}
 th {
-  border: 1px solid black;
+  background-color: #f4b266;
+}
+th,
+td {
+  padding: 5px;
 }
