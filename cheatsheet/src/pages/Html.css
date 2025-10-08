@@ -2,10 +2,15 @@
 .page-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;     /* vertical centering */
-  align-items: center;         /* horizontal centering */
-  height: 100vh;               /* full viewport height */
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
   text-align: center;
   gap: 1rem;
   padding: 2rem;
+}
+.table-container,
+td,
+th {
+  border: 1px solid black;
 }

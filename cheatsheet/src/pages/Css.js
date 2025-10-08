@@ -1,5 +1,5 @@
 // Css.js
-import "./Css.css";
+// import "./Css.css";
 
 export default function Css() {
   return (
