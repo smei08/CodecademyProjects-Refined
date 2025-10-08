@@ -1,0 +1,113 @@
+/* Html.css and Css.css can share the same rules */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #e2efde;
+}
+h1 {
+  color: #808f87;
+}
+h2 {
+  color: #9b7e46;
+}
+table,
+th,
+td {
+  border: 1px solid #9b7e46;
+  border-collapse: collapse;
+}
+table {
+  width: 80vh;
+}
+th {
+  background-color: #f4b266;
+}
+th,
+td {
+  padding: 5px;
+}
+.box-model-container {
+  border: 1px dashed #9b7e46;
+  width: 700px;
+  max-width: 90%;
+}
+.margin {
+  background: #f1f1f1;
+  padding: 45px;
+  position: relative;
+  /* border: 2px dashed #bbb; */
+  color: black;
+}
+.margin:before {
+  content: "Margin";
+  font-size: 1.4em;
+  position: absolute;
+  left: 0;
+  top: 1.8%;
+  width: 100%;
+  text-align: center;
+}
+.border {
+  padding: 45px;
+  width: 100%;
+  position: relative;
+  background-color: #afd0bf;
+}
+.border:before {
+  content: "Border";
+  font-size: 1.4em;
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 2.5%;
+  width: 100%;
+  text-align: center;
+}
+.padding {
+  color: black;
+  padding: 45px;
+  height: 100%;
+  position: relative;
+  background: #f1f1f1;
+}
+.padding:before {
+  content: "Padding";
+  font-size: 1.4em;
+  position: absolute;
+  left: 0.5%;
+  top: 3.7%;
+  width: 100%;
+  text-align: center;
+}
+.content {
+  padding: 20px;
+
+  height: 100%;
+  position: relative;
+  background: white;
+  border: 2px dashed #9b7e46;
+}
+.content:before {
+  content: "Content";
+  font-size: 1.4em;
+  display: block;
+  text-align: center;
+  line-height: 3.5;
+}
+.box-model-description li {
+  text-align: left;
+}
