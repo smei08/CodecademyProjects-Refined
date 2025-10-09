@@ -5,6 +5,7 @@ export default function Html() {
   return (
     <div className="page-container">
       <h1>HTML Reference</h1>
+      <hr></hr>
       <div className="table-container">
         <h2>Tables Elements</h2>
         <table className="html-tables">
@@ -72,6 +73,7 @@ export default function Html() {
           </tbody>
         </table>
       </div>
+      <hr></hr>
       <div className="html-forms">
         <h2>Forms Elements</h2>
         <table>

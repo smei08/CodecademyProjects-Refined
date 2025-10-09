@@ -1,4 +1,7 @@
 /* Html.css and Css.css can share the same rules */
+html {
+  background-color: #e2efde;
+}
 .page-container {
   display: flex;
   flex-direction: column;
@@ -31,4 +34,7 @@ th {
 th,
 td {
   padding: 5px;
+}
+.table-container {
+  padding-bottom: 30px;
 }
