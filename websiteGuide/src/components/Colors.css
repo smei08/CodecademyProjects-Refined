@@ -1,0 +1,29 @@
+.color-container {
+  /* background-color: #f7f7f7; */
+  width: 80%;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 45px 0px;
+}
+.one::before {
+  content: "Primary Color";
+  background-color: #626262;
+  padding: 30px 75px;
+  border-radius: 15px;
+}
+.two::before {
+  content: "Secondary Color";
+  background-color: #bdbdbd;
+  padding: 30px 75px;
+  border-radius: 15px;
+}
+.three::before {
+  content: "Accent Color";
+  background-color: #e2e2e2;
+  padding: 30px 75px;
+  border-radius: 15px;
+}
