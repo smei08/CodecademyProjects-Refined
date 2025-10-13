@@ -4,26 +4,32 @@
   height: 350px;
   border: 1px solid black;
   border-radius: 15px;
+  margin: 45px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h3 {
+  margin: 25px 25px 0px 25px;
+}
+.colors {
+  flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 45px 0px;
 }
-.one::before {
-  content: "Primary Color";
+.color {
+  padding: 30px 75px;
+  border-radius: 15px;
+  width: 30%;
+  text-align: center;
+}
+.one {
   background-color: #626262;
-  padding: 30px 75px;
-  border-radius: 15px;
 }
-.two::before {
-  content: "Secondary Color";
+.two {
   background-color: #bdbdbd;
-  padding: 30px 75px;
-  border-radius: 15px;
 }
-.three::before {
-  content: "Accent Color";
+.three {
   background-color: #e2e2e2;
-  padding: 30px 75px;
-  border-radius: 15px;
 }
